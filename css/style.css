@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* base rule */
 *{
@@ -75,6 +75,21 @@ li{
     -o-transition: all 0.4s linear;
 }
 
+.logo--span{
+  font-family: 'Courier New', Courier, monospace;
+  color: blueviolet;
+  font-weight: 700;
+  font-size: inherit;
+  display: inline-block;
+  transform: scale(1.6);
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  -webkit-transform: scale(1.6);
+  -moz-transform: scale(1.6);
+  -ms-transform: scale(1.6);
+  -o-transform: scale(1.6);
+}
+
 .btn:hover{
     background-color: var(--btn-hover);
     border: 0.2rem solid var(--btn-primary);
@@ -112,10 +127,6 @@ li{
     font-size: 3.4rem;
     font-family: var(--font-secondary);
     letter-spacing: 0.2rem;
-}
-
-.section-nav--logo span{
-    color:blueviolet;
 }
 
 /***** End navbar Section *****/
@@ -367,6 +378,7 @@ li{
 .news-letter-form--item textarea{
     width: 49.7rem;
     padding: 2rem 3.2rem;
+    font-size: 1.7rem;
     letter-spacing: 0.15rem;
     border: none;
     border-radius: 1rem;
@@ -396,6 +408,39 @@ li{
 
 /***** End news letter Section *****/
 
-
 /***** End main Section *****/
+
+
+
+/***** footer Section *****/ 
+
+.section-footer{
+    margin: 10.4rem 29%;
+    text-align: center;
+}
+
+.section-footer--logo{
+    margin-bottom: 2rem;
+    font-size: 10rem;
+    color: var(--btn-primary);
+}
+
+.section-footer--details{
+    margin-bottom: 4rem;
+    color: var(--footer-text);
+    font-size: 1.7rem;
+}
+
+.section-footer--link{
+    display: flex;
+    justify-content: center;
+    gap: 4.8rem;
+    font-size: 1.7rem;
+}
+
+.footer-link--item a{
+    color: var(--footer-text);
+}
+
+/***** End footer Section *****/
 

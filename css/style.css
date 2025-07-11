@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Raleway", sans-serif;
+    font-family: var(--font-primary);
 }
 
 html{
@@ -35,11 +35,13 @@ li{
     --btn-primary: #4E47FF;
     --btn-hover: #4d47ff00;
     --bg-primary: #F5F8FF;
-    --bg-secondary: rgba(78, 71, 255, 0.102);
+    --bg-secondary: #E5E7FF;
     --text-primary: #252432;
     --text-secondary: rgba(37, 36, 50, 0.5);
     --text-tertiary: #b3b3b3;
     --footer-text: #8987A1;
+    --font-primary: "Raleway", sans-serif;
+    --font-secondary: "Inter", sans-serif;
 }
 
 
@@ -108,7 +110,7 @@ li{
 .section-nav--logo{
     color: var(--btn-primary);
     font-size: 3.4rem;
-    font-family: "Inter", sans-serif;
+    font-family: var(--font-secondary);
     letter-spacing: 0.2rem;
 }
 
@@ -176,7 +178,45 @@ li{
 
 /***** productive user Section *****/ 
 
+.section-productive-user{
+    margin: 11.6rem 0 13.7rem;
+    padding: 5rem 14.2rem;
+    background-color: var(--bg-secondary);
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+}
 
+.section-productive-user--heading{
+    font-size: 3.8rem;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.section-productive-user--content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-item{
+    text-align: center;
+}
+.content-item p{
+    font-family: var(--font-secondary);
+}
+
+.content-item p:first-child{
+    color: var(--btn-primary);
+    font-size: 8rem;
+    font-weight: bold;
+}
+
+.content-item p:last-child{
+    color: var(--black-50);
+    font-size: 2rem;
+}
 
 /***** End productive user Section *****/
 

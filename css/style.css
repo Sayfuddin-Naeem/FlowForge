@@ -118,7 +118,20 @@ li{
 
 /***** End navbar Section *****/
 
+/***** hero Section *****/ 
 
+.section-hero{
+    width: 63%;
+    margin: 15.8rem auto 0;
+    text-align: center;
+}
+
+.section-hero--heading{
+    font-size: 6.5rem;
+    margin-bottom: 3.7rem;
+}
+
+/***** End hero Section *****/
 
 
 /***** End header Section *****/

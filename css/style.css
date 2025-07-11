@@ -200,26 +200,89 @@ li{
     justify-content: space-between;
 }
 
-.content-item{
+.productive-user--content-item{
     text-align: center;
 }
-.content-item p{
+.productive-user--content-item p{
     font-family: var(--font-secondary);
 }
 
-.content-item p:first-child{
+.productive-user--content-item p:first-child{
     color: var(--btn-primary);
     font-size: 8rem;
     font-weight: bold;
 }
 
-.content-item p:last-child{
+.productive-user--content-item p:last-child{
     color: var(--black-50);
     font-size: 2rem;
 }
 
 /***** End productive user Section *****/
 
+/***** review Section *****/ 
+
+.section-review{
+    margin-bottom: 13.7rem;
+}
+
+.section-review--heading{
+    margin-bottom: 5rem;
+    font-size: 4.2rem;
+    text-align: center;
+}
+
+.section-review--content{
+    display: flex;
+    gap: 2rem;
+}
+
+.review--content-item{
+    background-color: var(--white);
+    padding: 2.4rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.review-content-item--ratings{
+    margin-bottom: 2.4rem;
+}
+
+.review-content-item--heading{
+    font-size: 2.2rem;
+    margin-bottom: 0.8rem;
+}
+
+.review-content-item--details{
+    margin-bottom: 2.4rem;
+}
+
+.reviewer-info{
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.reviewer-info--image{
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.reviewer-info--data p:first-child{
+    color: #757575;
+}
+
+.reviewer-info--data p:last-child{
+    color: var(--text-tertiary);
+}
+
+/***** End review Section *****/
 
 
 /***** End main Section *****/

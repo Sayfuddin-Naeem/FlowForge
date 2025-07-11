@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* base rule */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+    /* 1rem = 10px */
+    /* 100% = 16px */
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: bold;
+    color: var(--text-primary);
+}
+
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+
+/* theme */
+:root{
+    --white: #ffffff;
+    --black: #000000;
+    --black-50: rgba(0, 0, 0, 0.502);
+    --btn-primary: #4E47FF;
+    --btn-hover: #4d47ff00;
+    --bg-primary: #D6DDED;
+    --bg-secondary: rgba(78, 71, 255, 0.102);
+    --text-primary: #252432;
+    --text-secondary: rgba(37, 36, 50, 0.5);
+    --text-tertiary: #b3b3b3;
+    --footer-text: #8987A1;
+}
+
+
+/* layout */
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* module / reusable */
+
+.btn{
+    background-color: var(--btn-primary);
+    padding: 1.2rem 3rem;
+    color: var(--white);
+    font-weight: bold;
+    font-size: 1.7rem;
+    letter-spacing: 0.2rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.8rem;
+    -webkit-border-radius: 0.8rem;
+    -moz-border-radius: 0.8rem;
+    -ms-border-radius: 0.8rem;
+    -o-border-radius: 0.8rem;
+    transition: all 0.4s linear;
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    -ms-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+}
+
+.btn:hover{
+    background-color: var(--btn-hover);
+    border: 0.2rem solid var(--btn-primary);
+    color: var(--text-secondary);
+    font-size: 1.8rem;
+    letter-spacing: 0.15rem;
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+
+/* state  */
+
+/***** header Section *****/ 
+
+.section-header{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../Assets/Hero-bg.png');
+    background-repeat: no-repeat;
+}
+
+/***** navbar Section *****/ 
+
+.section-nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem 0;
+}
+
+.section-nav--logo{
+    color: var(--btn-primary);
+    font-size: 3.4rem;
+    font-family: "Inter", sans-serif;
+    letter-spacing: 0.2rem;
+}
+
+.section-nav--logo span{
+    color:blueviolet;
+}
+
+/***** End navbar Section *****/
+
+
+
+
+/***** End header Section *****/

@@ -63,11 +63,11 @@ li{
     letter-spacing: 0.2rem;
     cursor: pointer;
     border: none;
-    border-radius: 0.8rem;
-    -webkit-border-radius: 0.8rem;
-    -moz-border-radius: 0.8rem;
-    -ms-border-radius: 0.8rem;
-    -o-border-radius: 0.8rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
     transition: all 0.4s linear;
     -webkit-transition: all 0.4s linear;
     -moz-transition: all 0.4s linear;
@@ -182,11 +182,11 @@ li{
     margin: 11.6rem 0 13.7rem;
     padding: 5rem 14.2rem;
     background-color: var(--bg-secondary);
-    border-radius: 2rem;
-    -webkit-border-radius: 2rem;
-    -moz-border-radius: 2rem;
-    -ms-border-radius: 2rem;
-    -o-border-radius: 2rem;
+    border-radius: 2.4rem;
+    -webkit-border-radius: 2.4rem;
+    -moz-border-radius: 2.4rem;
+    -ms-border-radius: 2.4rem;
+    -o-border-radius: 2.4rem;
 }
 
 .section-productive-user--heading{
@@ -243,11 +243,11 @@ li{
     height: 22rem;
     background-color: var(--white);
     padding: 2.4rem;
-    border-radius: 1rem;
-    -webkit-border-radius: 1rem;
-    -moz-border-radius: 1rem;
-    -ms-border-radius: 1rem;
-    -o-border-radius: 1rem;
+    border-radius: 1.4rem;
+    -webkit-border-radius: 1.4rem;
+    -moz-border-radius: 1.4rem;
+    -ms-border-radius: 1.4rem;
+    -o-border-radius: 1.4rem;
 }
 
 .review-content-item--ratings{
@@ -287,6 +287,48 @@ li{
 }
 
 /***** End review Section *****/
+
+/***** focus Section *****/ 
+
+.section-focus{
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 7.1rem 15rem;
+    border-radius: 1.4rem;
+    -webkit-border-radius: 1.4rem;
+    -moz-border-radius: 1.4rem;
+    -ms-border-radius: 1.4rem;
+    -o-border-radius: 1.4rem;
+}
+
+.section-focus--heading{
+    font-size: 5rem;
+    letter-spacing: 0.15rem;
+    text-transform: capitalize;
+}
+
+.section-focus--details{
+    margin: 2rem 0 4rem;
+    color: var(--black-50);
+    font-size: 1.7rem;
+    letter-spacing: 0.1rem;
+}
+
+.section-focus--btn-started{
+    margin-bottom: 2rem;
+}
+
+.section-focus--image{
+    border-radius: 4.8rem;
+    -webkit-border-radius: 4.8rem;
+    -moz-border-radius: 4.8rem;
+    -ms-border-radius: 4.8rem;
+    -o-border-radius: 4.8rem;
+}
+
+/***** End focus Section *****/
 
 
 /***** End main Section *****/

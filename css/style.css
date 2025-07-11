@@ -330,6 +330,72 @@ li{
 
 /***** End focus Section *****/
 
+/***** news letter Section *****/ 
+
+.section-news-letter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7.1rem 0;
+}
+
+.news-letter--heading{
+    font-size: 9.6rem;
+}
+
+.news-letter--form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.9rem;
+}
+
+.news-letter-form--item label,
+.news-letter-form--item input,
+.news-letter-form--item textarea{
+    display: block;
+}
+
+.news-letter-form--item label{
+    margin-bottom: 1rem;
+    font-family: var(--font-secondary);
+    font-size: 1.8rem;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+}
+
+.news-letter-form--item input,
+.news-letter-form--item textarea{
+    width: 49.7rem;
+    padding: 2rem 3.2rem;
+    letter-spacing: 0.15rem;
+    border: none;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.news-letter-form--item input{
+    height: 7rem;
+}
+
+.news-letter-form--item textarea{
+    height: 13.5rem;
+    resize: none;
+    overflow-x: hidden;
+    overflow-y: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.news-letter-form--item input:focus,
+.news-letter-form--item textarea:focus{
+    outline: 0.2rem solid var(--btn-primary);
+}
+
+/***** End news letter Section *****/
+
 
 /***** End main Section *****/
 

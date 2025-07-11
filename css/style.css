@@ -34,7 +34,7 @@ li{
     --black-50: rgba(0, 0, 0, 0.502);
     --btn-primary: #4E47FF;
     --btn-hover: #4d47ff00;
-    --bg-primary: #D6DDED;
+    --bg-primary: #F5F8FF;
     --bg-secondary: rgba(78, 71, 255, 0.102);
     --text-primary: #252432;
     --text-secondary: rgba(37, 36, 50, 0.5);
@@ -137,6 +137,48 @@ li{
 /***** End header Section *****/
 
 /***** main Section *****/ 
+
+.section-main{
+    background-color: var(--bg-primary);
+}
+
+/***** action Section *****/ 
+
+.section-action{
+    display: flex;
+    align-items: center;
+    gap: 22rem;
+}
+
+.section-action--content, .section-action--image{
+    margin-top: 11.6rem;
+}
+
+.section-action--heading{
+    font-size: 4.2rem;
+}
+
+.section-action--details{
+    margin: 2.3rem 0;
+    font-size: 2.4rem;
+    color: var(--text-secondary);
+}
+
+.section-action--image{
+    border-radius: 4.8rem;
+    -webkit-border-radius: 4.8rem;
+    -moz-border-radius: 4.8rem;
+    -ms-border-radius: 4.8rem;
+    -o-border-radius: 4.8rem;
+}
+
+/***** End action Section *****/
+
+/***** productive user Section *****/ 
+
+
+
+/***** End productive user Section *****/
 
 
 

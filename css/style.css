@@ -234,10 +234,13 @@ li{
 
 .section-review--content{
     display: flex;
+    justify-content: center;
     gap: 2rem;
 }
 
 .review--content-item{
+    width: 29.8%;
+    height: 22rem;
     background-color: var(--white);
     padding: 2.4rem;
     border-radius: 1rem;
@@ -276,6 +279,7 @@ li{
 
 .reviewer-info--data p:first-child{
     color: #757575;
+    margin-bottom: 1rem;
 }
 
 .reviewer-info--data p:last-child{
